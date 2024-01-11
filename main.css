@@ -26,4 +26,5 @@ canvas {
   color: #ffff00;
   text-decoration: none;
   font-size: 28px;
+  /* z-index: 1; */
 }
