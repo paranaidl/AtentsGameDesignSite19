@@ -143,15 +143,58 @@
 
     <div class="album py-5 bg-dark">
       <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
+
+          <!-- 캐로셀 테스트 -->
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/images/spaceship01.jpg" class="d-block w-100" alt="우주선1">
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="/pages/sub01.html" class="btn btn-dark">프로젝트1</a>
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/spaceship02.jpg" class="d-block w-100" alt="우주선2">
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="/pages/sub01.html" class="btn btn-dark">프로젝트2</a>
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/spaceship03.jpg" class="d-block w-100" alt="우주선3">
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="/pages/sub01.html" class="btn btn-dark">프로젝트3</a>
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- 캐로셀 테스트 끝 -->
+
+          <!-- <div class="col">
             <div class="card shadow-sm" width="100%">
               <img src="/images/spaceship01.jpg" class="card-img-top" alt="우주선1">
               <div class="card-body">
-                <h5 class="card-title">UI디자인</h5>
-                <p class="card-text">나의 첫 게임 UI디자인 문서.</p>
-                <a href="/pages/page01.html" class="btn btn-dark">문서보기</a>
-                <a href="/pages/page01-1.html" class="btn btn-info">IA보기</a>
+                <h5 class="card-title">프로젝트1 이름</h5>
+                <p class="card-text">프로젝트1의 내용 설명</p>
+                <a href="/pages/sub01.html" class="btn btn-dark">프로젝트1</a>
               </div>
             </div>
           </div>
@@ -159,7 +202,7 @@
             <div class="card shadow-sm" width="100%">
               <img src="/images/spaceship02.jpg" class="card-img-top" alt="우주선2">
               <div class="card-body">
-                <h5 class="card-title">레벨디자인</h5>
+                <h5 class="card-title">프로젝트2 이름</h5>
                 <p class="card-text">매트로바니아 장르의 플래포머 스테이지.</p>
                 <a href="/pages/page02.html" class="btn btn-dark">문서보기</a>
               </div>
@@ -169,7 +212,7 @@
             <div class="card shadow-sm" width="100%">
               <img src="/images/spaceship03.jpg" class="card-img-top" alt="우주선3">
               <div class="card-body">
-                <h5 class="card-title">인벤토리시스템</h5>
+                <h5 class="card-title">프로젝트3 이름</h5>
                 <p class="card-text">드래그 앤 드랍 기능이 있는 인벤토리 기능</p>
                 <a href="/pages/page03.html" class="btn btn-dark">문서보기</a>
               </div>
@@ -204,39 +247,8 @@
                 <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
               </div>
             </div>
-          </div>
-          <!-- <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
-              <div class="card-body">
-                <h5 class="card-title">기획서7</h5>
-                <p class="card-text">블라블라~ 기획서6의 내용을 간략하게 적으세요.</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
-              <div class="card-body">
-                <h5 class="card-title">기획서8</h5>
-                <p class="card-text">블라블라~ 기획서6의 내용을 간략하게 적으세요.</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm" width="100%">
-              <img src="/images/spaceship06.jpg" class="card-img-top" alt="우주선6">
-              <div class="card-body">
-                <h5 class="card-title">기획서9</h5>
-                <p class="card-text">블라블라~ 기획서6의 내용을 간략하게 적으세요.</p>
-                <a href="/pages/page06.html" class="btn btn-dark">문서보기</a>
-              </div>
-            </div>
           </div> -->
 
-        </div>
       </div>
     </div>
 
